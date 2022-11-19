@@ -30,12 +30,6 @@
     background: hsl(var(--hue), 16%, 19%);
 }
 
-.column-link {
-    /*     background: #393f4f; */
-    /*     background: hsl(224, 16%, 27%); */
-    background: hsl(var(--hue), 16%, 27%);
-}
-
 .admin-wrapper .content-heading {
     /*     border-bottom: 1px solid #393f4f; */
     /*     border-bottom: 1px solid hsl(224, 16%, 27%); */
