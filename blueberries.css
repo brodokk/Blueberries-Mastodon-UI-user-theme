@@ -15,6 +15,144 @@
     opacity: 50%;
 }
 
+/* start brodokk fixes */
+
+.getting-started, .getting-started__footer p, .getting-started__footer p a {
+    /*     color: #606984; */
+    /*     color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.nothing-here {
+    /*     background: #282c37; */
+    /*     background: hsl(224, 16%, 19%); */
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.column-link {
+    /*     background: #393f4f; */
+    /*     background: hsl(224, 16%, 27%); */
+    background: hsl(var(--hue), 16%, 27%);
+}
+
+.admin-wrapper .content-heading {
+    /*     border-bottom: 1px solid #393f4f; */
+    /*     border-bottom: 1px solid hsl(224, 16%, 27%); */
+    border-bottom: 1px solid hsl(var(--hue), 16%, 27%);
+}
+
+.getting-started__footer a, .getting-started__trends .trends__item__current, .setting-text, .icon-button.disabled, .account__header__bio .account__header__joined, .nothing-here {
+    /*     color: #9baec8; */
+    /*     color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.setting-text {
+    /*     border-bottom: 2px solid #9baec8; */
+    /*     border-bottom: 2px solid hsl(215, 29%, 70%); */
+    border-bottom: 2px solid hsl(var(--hue), 29%, 70%);
+}
+
+.account__header__bar {
+    /*     border-color: #313543; */
+    /*     border-color: hsl(227, 16%, 23%); */
+    background: hsl(var(--hue), 16%, 23%);
+}
+
+.account__header__bio .account__header__fields {
+    /*       border-top: 1px solid #42485a; */
+    /*       border-top: 1px solid hsl(225, 15%, 31%); */
+    border-top: 1px solid hsl(var(--hue), 15%, 31%);
+}
+
+.batch-table .nothing-here {
+    /*     background: #17191f; */
+    /*     background: hsl(225, 15%, 11%); */
+    background: hsl(var(--hue), 15%, 11%);
+}
+
+/* Add suport on instance information when connected */
+
+.rules-list li {
+    /*    border-bottom: 1px solid #393f4f; */
+    /*    border-bottom: 1px solid hsl(224, 16%, 27%); */
+    border-bottom: 1px solid hsl(var(--hue), 16%, 27%);
+}
+
+.about__domain-blocks {
+    /*     background: #1f232b; */
+    /*     border: 1px solid #313543; */
+    /*     background: hsl(220, 16%, 15%); */
+    /*     border: 1px solid hsl(227, 16%, 23%); */
+    background: hsl(var(--hue), 16%, 15%);
+    border: 1px solid hsl(var(--hue), 16%, 23%);
+}
+
+.about__domain-blocks__domain {
+    /*     color: #9baec8; */
+    /*     border-bottom: 1px solid #313543; */
+    /*     color: hsl(215, 29%, 70%); */
+    /*     border-bottom: 1px solid hsl(227, 16%, 23%); */
+    color: hsl(var(--hue), 29%, 70%);
+    border-bottom: 1px solid hsl(var(--hue), 16%, 23%);
+}
+
+.about__domain-blocks__domain h6 {
+    /*     color: #d9e1e8; */
+    /*     color: hsl(var(--hue), 25%, 88%); */
+    color: hsl(var(--hue), 25%, 88%);
+}
+
+.about__domain-blocks__domain:nth-child(2n) {
+    /*     background: #242731; */
+    /*     background: hsl(226, 15%, 17%); */
+    background: hsl(var(--hue), 15%, 17%);
+}
+
+/* search fixes */
+
+.search-results__info {
+    /*     color: #9baec8; */
+    /*     color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.account {
+    /* border-bottom: 1px solid #393f4f; */
+    /* border-bottom: 1px solid hsl(224, 16%, 27%); */
+    border-bottom: 1px solid hsl(var(--hue), 16%, 27%);
+}
+
+/* end brodokk fixes */
+
+/* start brodokk bonus fixes */
+
+.compose-form .autosuggest-textarea__textarea::placeholder, .compose-form .spoiler-input__input::placeholder {
+    /*     color: #d9e1e8; */
+    /*     color: hsl(var(--hue), 25%, 88%); */
+    color: hsl(var(--hue), 25%, 88%);
+}
+
+.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
+    /*     color: #d9e1e8; */
+    /*     color: hsl(var(--hue), 25%, 88%); */
+    color: hsl(var(--hue), 25%, 88%);
+}
+
+.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input, .compose-form .compose-form__modifiers {
+    /*     color: #282c37; */
+    /*     color: hsl(224, 16%, 19%); */
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.compose-form .compose-form__buttons-wrapper {
+    /*     color: #282c37; */
+    /*     color: hsl(224, 16%, 19%); */
+    background: hsl(var(--hue), 15%, 13%);
+}
+
+/* end brodokk bonus fixes */
+
 .admin-wrapper .sidebar .logo {
     filter: hue-rotate(calc(var(--hue) - 260deg));
 }
