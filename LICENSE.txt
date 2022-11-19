@@ -1,4 +1,4 @@
-Blueberries Mastodon UI user theme (c) by brodokk
+Blueberries Mastodon UI user theme (c) by HugoBDesigner, brodokk
 
 Blueberries Mastodon UI user theme is licensed under a
 Creative Commons Attribution 4.0 International License.
