@@ -132,6 +132,26 @@
     background: hsl(var(--hue), 15%, 11%);
 }
 
+/* Follow request fixes */
+
+.account--panel {
+    /*     background: #313543; */
+    /*     background: hsl(227, 16%, 23%); */
+    background: hsl(var(--hue), 16%, 23%);
+}
+
+.account--panel {
+    /*     border-top: 1px solid #393f4f; */
+    /*     border-top: 1px solidhsl(224, 16%, 27%); */
+    border-top: 1px solid hsl(var(--hue), 16%, 27%);
+}
+
+.account--panel {
+    /*     border-bottom: 1px solid #393f4f; */
+    /*     border-bottom: 1px solidhsl(224, 16%, 27%); */
+    border-bottom: 1px solid hsl(var(--hue), 16%, 27%);
+}
+
 /* end brodokk fixes */
 
 /* start brodokk bonus fixes */
