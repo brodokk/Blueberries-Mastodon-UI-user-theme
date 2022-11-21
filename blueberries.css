@@ -118,6 +118,20 @@
     border-bottom: 1px solid hsl(var(--hue), 16%, 27%);
 }
 
+/* Add fixes for profile directory */
+
+.filter-form {
+    /*     background: #282c37; */
+    /*     background: hsl(224, 16%, 19%); */
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.account-card__header img {
+    /*     background: #17191f; */
+    /*     background: hsl(225, 15%, 11%); */
+    background: hsl(var(--hue), 15%, 11%);
+}
+
 /* end brodokk fixes */
 
 /* start brodokk bonus fixes */
