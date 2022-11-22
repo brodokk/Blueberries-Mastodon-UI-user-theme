@@ -4,8 +4,10 @@
     /*     --hue: 240deg; */
     /* AVOCADO HUE */
     /*     --hue: 90deg; */
+    /* BLUEBERRIES HUE */
+    /*     --hue: 300deg; */
     /* CURRENT HUE */
-    --hue: 90deg;
+    --hue: 300deg;
 }
 
 .navigation-panel a.column-link.column-link--logo:after {
