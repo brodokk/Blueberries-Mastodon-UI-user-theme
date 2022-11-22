@@ -182,6 +182,38 @@
     background: hsl(var(--hue), 15%, 13%);
 }
 
+/* Add support page not found when connected */
+
+.regeneration-indicator {
+    /*     color: #606984; */
+    /*         color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.regeneration-indicator {
+    /*     color: #282c37; */
+    /*     color: hsl(224, 16%, 19%); */
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.regeneration-indicator__label strong {
+    /*     color: #606984; */
+    /*     color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.error-column {
+    /*    background: rgb(40, 44, 55);  */
+    /*    background: hsl(224, 16%, 19%);  */
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.error-column__message {
+    /*     color: rgb(155, 174, 200); */
+    /*     color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
 /* end brodokk bonus fixes */
 
 .admin-wrapper .sidebar .logo {
