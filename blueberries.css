@@ -980,6 +980,12 @@ a.status-card:hover {
     color: hsl(var(--hue), 25%, 88%);
 }
 
+.search__icon .fa-times-circle:hover {
+    /* color: #707b97; */
+    /* color: hsl(223, 16%, 52%); */
+    color: hsl(var(--hue), 16%, 52%);
+}
+
 .search-popout h4,
 .search-popout {
     /* color: #9baec8; */
@@ -2316,6 +2322,42 @@ body.lighter {
     /* color: #d9e1e8; */
     /* color: hsl(208, 25%, 88%); */
     color: hsl(var(--hue), 25%, 88%);
+}
+
+.conversation--unread {
+    /* background: #2c313d; */
+    /* background: hsl(222, 16%, 21%); */
+    background: hsl(var(--hue), 16%, 21%);
+}
+
+.conversation {
+    /* border-bottom-color: #393f4f; */
+    /* border-bottom-color: hsl(224, 16%, 27%); */
+    border-bottom-color: hsl(var(--hue), 16%, 27%);
+}
+
+.conversation__content__relative-time {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.conversation__unread {
+    /* background: #8c8dff; */
+    /* background: hsl(239, 100%, 77%); */
+    background: hsl(var(--hue), 100%, 77%);
+}
+
+.empty-column-indicator a, .follow_requests-unlocked_explanation a {
+    /* color: #8c8dff; */
+    /* color: hsl(239, 100%, 77%); */
+    color: hsl(var(--hue), 100%, 77%);
+}
+
+.conversation__content__names {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
 }
 
 
