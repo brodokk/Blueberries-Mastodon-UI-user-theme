@@ -265,6 +265,12 @@ body.admin {
     border-bottom-color: hsl(var(--hue), 16%, 27%);
 }
 
+.getting-started__trends h4 a {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
 .focusable:focus {
     /* background: #313543; */
     /* background: hsl(227, 16%, 23%); */
