@@ -2306,6 +2306,18 @@ body.lighter {
     color: hsl(var(--hue), 29%, 70%);
 }
 
+.reactions-bar .emoji-button:active, .reactions-bar .emoji-button:focus, .reactions-bar .emoji-button:hover {
+    /* color: #a8b9cf; */
+    /* color: hsl(214, 29%, 74%); */
+    color: hsl(var(--hue), 29%, 74%);
+}
+
+.announcements__item__content a {
+    /* color: #d9e1e8; */
+    /* color: hsl(208, 25%, 88%); */
+    color: hsl(var(--hue), 25%, 88%);
+}
+
 
 
 /* ================= */
