@@ -2240,6 +2240,12 @@ body.lighter {
     color: hsl(var(--hue), 16%, 52%);
 }
 
+.compose-form .autosuggest-account .display-name__account {
+    /* color: #606984; */
+    /* color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
 
 
 /* ================= */
