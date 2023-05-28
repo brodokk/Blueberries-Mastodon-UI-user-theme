@@ -2234,6 +2234,12 @@ body.lighter {
     background: hsl(var(--hue), 16%, 19%);
 }
 
+.icon-button.inverted.disabled {
+    /* color: #707b97; */
+    /* color: hsl(223, 16%, 52%); */
+    color: hsl(var(--hue), 16%, 52%);
+}
+
 
 
 /* ================= */
