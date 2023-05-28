@@ -463,8 +463,68 @@ body.admin {
 
 .poll__option input[type="text"] {
     /* color: #282c37; */
+    /* background: #fff; */
+    /* border: 1px solid #dbdbdb; */
     /* color: hsl(224, 16%, 19%); */
-    color: hsl(var(--hue), 16%, 19%);
+    /* backgroud: hsl(0, 0%, 100%); */
+    /* border: 1px solid hsl(0, 0%, 86%);*/
+    /* Manually changed for readability */
+    color: hsl(var(--hue), 70.8%, 82.5%);
+    background: hsl(var(--hue), 25.4%, 27.8%);
+    border: 1px solid hsl(var(--hue), 16%, 45%);
+}
+
+.poll__input:active,
+.poll__input:focus,
+.poll__input:hover {
+    /* border-color: #acd6c1; */
+    /* border-color: hsl(150, 34%, 76%); */
+    border-color: hsl(var(--hue), 34%, 76%);
+}
+
+.compose-form__poll-wrapper .icon-button.disabled {
+    /* color: #dbdbdb; */
+    /* color: hsl(0, 0%, 86%); */
+    /* Manually changed for readability */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.poll__cancel .icon-button {
+    /* color: #606984; */
+    /* color: hsl(225, 16%, 45%); */
+    /* Manually changed for readability */
+    color: hsl(var(--hue),  80%, 88.2%);
+}
+
+.poll__cancel .icon-button:active,
+.poll__cancel .icon-button:focus,
+.poll__cancel .icon-button:hover {
+    /* color: #707b97; */
+    /* color: hsl(223, 16%, 52%); */
+    /* Manually changed for readability */
+    color: hsl(var(--hue), 62.6%, 82.2%);
+}
+
+.compose-form__poll-wrapper .poll__footer button:focus,
+.compose-form__poll-wrapper .poll__footer select:focus {
+    /* border-color: #8c8dff; */
+    /* border-color: hsl(239, 100%, 77%); */
+    /* border-color: hsl(var(--hue), 100%, 77%); */
+    /* Manually changed for readability */
+    border-color: hsl(var(--hue), 70%, 47%);
+}
+
+.compose-form__poll-wrapper select {
+    /* color: #282c37; */
+    /* background-color: #fff; */
+    /* border: 1px solid #dbdbdb; */
+    /* color: hsl(224, 16%, 19%); */
+    /* backgroud-color: hsl(0, 0%, 100%); */
+    /* border: 1px solid hsl(0, 0%, 86%);*/
+    /* Manually changed for readability */
+    color: hsl(var(--hue), 70.8%, 82.5%);
+    background-color: hsl(var(--hue), 25.4%, 27.8%);
+    border: 1px solid hsl(var(--hue), 16%, 45%);
 }
 
 .poll__option input[type="text"]:focus {
