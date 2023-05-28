@@ -2246,6 +2246,66 @@ body.lighter {
     color: hsl(var(--hue), 16%, 45%);
 }
 
+.status__info__icons {
+    /* color: #606984; */
+    /* color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.account__action-bar__tab.active {
+    /* border-bottom-color: #6364ff; */
+    /* border-bottom-color: hsl(240, 100%, 69%); */
+    border-bottom-color: hsl(var(--hue), 100%, 69%);
+}
+
+.account__action-bar__tab {
+    /* border-left-color: #393f4f; */
+    /* border-left-color: hsl(224, 16%, 27%); */
+    border-left-color: hsl(var(--hue), 16%, 27%);
+}
+
+.account__action-bar {
+    /* border-top-color: #393f4f; */
+    /* border-bottom-color: #393f4f; */
+    /* border-top-color: hsl(224, 16%, 27%); */
+    /* border-bottom-color: hsl(224, 16%, 27%); */
+    border-top-color: hsl(var(--hue), 16%, 27%);
+    border-bottom-color: hsl(var(--hue), 16%, 27%);
+}
+
+.account__action-bar__tab > span {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.account__header__bio .account__header__joined {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.account__header__bar {
+    /* background: #313543; */
+    /* border-bottom-color: #42485a; */
+    /* background: hsl(227, 16%, 23%); */
+    /* border-bottom-color: hsl(225, 15%, 31%); */
+    background: hsl(var(--hue), 16%, 23%);
+    border-bottom-color: hsl(var(--hue), 15%, 31%);
+}
+
+.translate-button {
+    /* color: #606984; */
+    /* color: hsl(225, 16%, 45%); */
+    color: hsl(var(--hue), 16%, 45%);
+}
+
+.reactions-bar .emoji-button {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
 
 
 /* ================= */
