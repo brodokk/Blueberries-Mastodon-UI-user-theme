@@ -610,7 +610,8 @@ body.admin {
 .language-dropdown__dropdown__results__item {
     /* color: #282c37; */
     /* color: hsl(224, 16%, 19%); */
-    color: hsl(var(--hue), 16%, 19%);
+    /* Manually changed for readability */
+    color: hsl(300, 46%, 75.3%);
 }
 
 .language-dropdown__dropdown__results__item__common-name {
