@@ -203,6 +203,21 @@
     color: hsla(var(--hue), 0%, 100%, 0.6);
 }
 
+/* You might be interested in fixes */
+
+.trends__header {
+    /* color: #606984; */
+    /* background: #2c313d; */
+    /* border-bottom: 1px solid #1f232b; */
+    /* color:  hsl(225, 16%, 45%); */
+    /* background: hsl(222, 16%, 21%); */
+    /* border-bottom: 1px solid hsl(220, 16%, 15%); */
+    color: hsl(var(--hue), 16%, 45%);
+    background: hsl(var(--hue), 16%, 21%);
+    border-bottom: 1px solid #1f232b;
+    border-bottom: 1px solid hsl(var(--hue), 16%, 15%);
+}
+
 /* end brodokk bonus fixes */
 
 .admin-wrapper .sidebar .logo {
