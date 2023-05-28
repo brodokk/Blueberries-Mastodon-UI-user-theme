@@ -218,6 +218,75 @@
     border-bottom: 1px solid hsl(var(--hue), 16%, 15%);
 }
 
+/* glitsoc fixes */
+
+.notification.unread::before, .status.unread::before {
+    /* -webkit-border-start: 4px solid #8c8dff; */
+    /* -webkit-border-start: 4px solid hsl(239, 100%, 77%); */
+    -webkit-border-start: 4px solid hsl(var(--hue), 100%, 77%);
+    /* border-inline-start: 4px solid #8c8dff; */
+    /* border-inline-start: 4px solid hsl(239, 100%, 77%); */
+    border-inline-start: 4px solid hsl(var(--hue), 100%, 77%);
+}
+
+.drawer__header > * {
+    /* color: #9baec8; */
+    /* color: hsl(215, 29%, 70%); */
+    color: hsl(var(--hue), 29%, 70%);
+}
+
+.pillbar-button:not([disabled]):focus, .pillbar-button:not([disabled]):hover {
+    /* background-color: #131419; */
+    /* background-color: hsl(230, 14%, 9%); */
+    background-color: hsl(var(--hue), 14%, 9%);
+}
+
+.pillbar-button {
+    /* background-color: #282c37; */
+    /* background-color: hsl(224, 16%, 19%); */
+    background-color: hsl(var(--hue), 16%, 19%);
+}
+
+.pillbar-button:not([disabled]).active {
+    /* background-color: #595aff; */
+    /* background-color: hsl(240, 100%, 67%); */
+    /* background-color: hsl(var(--hue), 100%, 67%); */
+    /* Manually changed for readibility */
+    background-color: hsl(var(--hue), 60%, 47%);
+}
+
+.pillbar-button:not([disabled]).active:focus, .pillbar-button:not([disabled]).active:hover {
+    /* background-color: #6364ff; */
+    /* background-color: hsl(240, 100%, 69%); */
+    /* background-color: hsl(var(--hue), 100%, 69%); */
+    /* Manually changed for readability */
+    background-color: hsl(var(--hue), 60%, 69%);
+}
+
+.mbstobon-0 .drawer__inner__mastodon {
+    /* background-color: #444b5d; */
+    /* background-color: hsl(223, 16%, 32%); */
+    /* background-color: hsl(240deg, 16%, 32%); */
+    background-color: hsl(calc(var(--hue) -120deg), 16%, 32%);
+}
+
+.compose-form .autosuggest-input label .autosuggest-textarea__textarea,
+.compose-form .autosuggest-textarea label .autosuggest-textarea__textarea {
+    /* color: #d9e1e8; */
+    /* background: #282c37; */
+    /* color: hsl(208, 25%, 88%); */
+    /* background: hsl(224, 16%, 19%); */
+    color: hsl(var(--hue), 25%, 88%);
+    background: hsl(var(--hue), 16%, 19%);
+}
+
+.compose-form .autosuggest-input label .autosuggest-textarea__textarea::placeholder,
+.compose-form .autosuggest-textarea label .autosuggest-textarea__textarea::placeholder {
+    /* color: #d9e1e8; */
+    /* color: hsl(var(--hue), 25%, 88%); */
+    color: hsl(var(--hue), 25%, 88%);
+}
+
 /* end brodokk bonus fixes */
 
 .admin-wrapper .sidebar .logo {

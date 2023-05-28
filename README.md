@@ -7,6 +7,8 @@ Its for being use with the web extension stylus https://add0n.com/stylus.html
 (who is a fork of Stylish). This theme is also available on userstyles.org:
 https://userstyles.org/styles/254893/blueberries-mastodon-ui-user-theme
 
+**Note**: Beta support for glitch-soc fork
+
 ## Customization
 
 The customization is pretty simple, if you just want to just change the general
