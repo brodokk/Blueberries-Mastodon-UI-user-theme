@@ -29,4 +29,4 @@ css rule to what you want, avocado by @HugoBDesigner is also available:
 ## Screenshoots
 
 ![Simple view](https://userstyles.org/style_screenshots/254893_after.png)
-![Advanced view](https://userstyles.org/style_screenshots/254893_additional_41579.png)
+![Advanced view](https://userstyles.org/style_screenshots/254893_additional_41580.png)
