@@ -1,0 +1,53 @@
+#+STARTUP: nofold
+#+HTML: <div align="center">
+
+* Blueberries Mastodon UI user theme
+Mastodon UI user theme by HugoBDesigner and Brodokk but purple mode
+
+#+HTML: <img src="https://userstyles.org/style_screenshots/254893_after.png" width="100%"/>
+
+#+HTML: </div>
+
+** Feature
+
+- Hue customization (default to blueberries - purple)
+- glitch-soc support (BETA)
+
+** Installation
+
+First you need to set, if not already, mastodon theme in ~Mastodon (Dark)~ (In ~Settings~ > ~Preferences~ > ~Appearance~ > ~Site theme~)
+
+Then install this theme via one of this providers:
+
+- [[https://userstyles.world/style/7513/blueberries-mastodon-ui-user-theme][userstyles.world]] (recommended)
+- [[https://userstyles.org/styles/254893/blueberries-mastodon-ui-user-theme][userstyles.org]]
+
+** More screenshoots
+
+#+HTML: <img src="https://userstyles.org/style_screenshots/254893_additional_41580.png" width="100%"/>
+
+** Customization
+
+The customization is pretty simple, if you just want to just change the general
+them color. The the top of the file change the ~CURRENT HUE~ in the ~:root~
+css rule to what you want, avocado by @HugoBDesigner is also available:
+
+#+begin_src
+:root {
+    /* DEFAULT HUE */
+    /*     --hue: 240deg; */
+    /* AVOCADO HUE */
+    /*     --hue: 90deg; */
+    /* BLUEBERRIES HUE */
+    /*     --hue: 300deg; */
+    /* CURRENT HUE */
+    --hue: 300deg;
+}
+#+end_src
+
+** Credits
+
+- [[https://github.com/HugoBDesigner][HugoBDesigner]] for the base theme and all the hardwork, see [[https://gist.github.com/HugoBDesigner/1a784bf782b5994efecfb9e3adf85fc6][base code]]
+
+** License
+Code released under the [[LICENSE.TXT][CC-BY]] license.
