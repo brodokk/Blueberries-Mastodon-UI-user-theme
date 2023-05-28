@@ -186,6 +186,23 @@
     color: hsl(var(--hue), 16%, 45%);
 }
 
+/* Graze toot fixes */
+
+.graze-toot-container.site {
+    /* border: 1px solid #606984; */
+    /* background: #383d4c; */
+    /* border: 1px solid hsl(225, 16%, 45%); */
+    /* background: hsl(225, 15%, 26%); */
+    border: 1px solid hsl(var(--hue), 16%, 45%);
+    background: hsl(var(--hue), 15%, 26%);;
+}
+
+.graze-toot-container.site h2 {
+    /* color: rgba(255, 255, 255, 0.6); */
+    /* color: hsla(255, 0%, 100%, 0.6); */
+    color: hsla(var(--hue), 0%, 100%, 0.6);
+}
+
 /* end brodokk bonus fixes */
 
 .admin-wrapper .sidebar .logo {
