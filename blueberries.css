@@ -619,6 +619,58 @@ body.admin {
     color: hsl(var(--hue), 29%, 70%);
 }
 
+.emoji-picker-dropdown__menu {
+    /* background: #fff; */
+    /* background: hsl(0, 0%, 100%); */
+    /* Manually changed for readability */
+    background: hsl(var(--hue), 15.9%, 21%);
+    /*box-shadow: 4px 4px 6px rgba(0,0,0,.4);*/
+}
+
+.emoji-mart-scroll {
+    /* background: #fff; */
+    /* background: hsl(0, 0%, 100%); */
+    /* Manually changed for readability */
+    background: hsl(var(--hue), 15.9%, 21%);
+}
+
+.emoji-mart-category-label span {
+    /* background: #fff; */
+    /* background: hsl(0, 0%, 100%); */
+    /* Manually changed for readability */
+    background: hsl(var(--hue), 15.9%, 21%);
+}
+
+.emoji-mart {
+    /* color: #282c37; */
+    /* color: hsl(224, 16%, 19%); */
+    /* Manually changed for readability */
+    color: hsl(var(--hue), 45.8%, 76.9%);
+}
+
+.emoji-mart-search {
+    /* background: #fff; */
+    /* background: hsl(0, 0%, 100%); */
+    /* Manually changed for readability */
+    background: hsl(var(--hue), 15.9%, 21%);
+}
+
+.emoji-picker-dropdown__modifiers__menu {
+    /* background: #fff; */
+    /* background: hsl(0, 0%, 100%); */
+    /* Manually changed for readability */
+    background: hsl(var(--hue), 15.9%, 21%);
+}
+
+.emoji-picker-dropdown__modifiers__menu button:active,
+.emoji-picker-dropdown__modifiers__menu button:focus,
+.emoji-picker-dropdown__modifiers__menu button:hover {
+    /* background: rgba(217,225,232,.4); */
+    /* background: hsla(208, 25%, 88%, 0.4); */
+    /* Manually changed for readability */
+    background: hsla(var(--hue), 25%, 88%, 0.4);
+}
+
 .emoji-mart-anchor-selected {
     /* color: #8c8dff; */
     /* color: hsl(239, 100%, 77%); */
