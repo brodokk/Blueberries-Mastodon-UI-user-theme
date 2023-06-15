@@ -552,7 +552,8 @@
         So this exists to mitigate contrast issues with the (unstylable) selected item. */
     .compose-form__poll-wrapper select option {
         background-color: hsl(var(--hue), 16%, 19%);
-    /*     color: hsl(var(--hue), 17%, 15%); */
+        /* color: hsl(var(--hue), 17%, 15%); */
+    }
     
 
     .poll__option input[type="text"]:focus {
