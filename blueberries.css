@@ -792,7 +792,8 @@
         /* border-color: hsl(208, 25%, 88%); */
         /* Manually changed for readability */
         background: hsla(var(--hue), 17%, 15%, .3);
-        color: hsl(var(--hue), 16%, 19%);
+        /* Manually changed for readability */
+        color: hsl(var(--hue), 16%, 72%);
         border-color: hsl(var(--hue), 16%, 27%);
     }
 
