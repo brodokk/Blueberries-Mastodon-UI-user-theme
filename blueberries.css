@@ -526,6 +526,15 @@
         border-color: hsl(var(--hue), 70%, 47%);
     }
 
+    .compose-form__poll-wrapper .poll__footer,
+    .compose-form__poll-wrapper {
+    /*      border-color: #ebebeb; */
+    /*      border-color: hsl(0, 0%, 92%); */
+    /*      border-color: hsl(var(--hue), 0%, 92%); */
+        /* Manually changed for readability */
+        border-color: hsl(var(--hue), 16%, 27%);
+    }
+
     .compose-form__poll-wrapper select {
         /* color: #282c37; */
         /* background-color: #fff; */
@@ -538,6 +547,14 @@
         background-color: hsl(var(--hue), 25.4%, 27.8%);
         border: 1px solid hsl(var(--hue), 16%, 45%);
     }
+
+    /*  Apparently an HTML "select" element cannot be properly styled in its expanded form.
+        So this exists to mitigate contrast issues with the (unstylable) selected item. */
+    .compose-form__poll-wrapper select option {
+        background-color: hsl(var(--hue), 16%, 19%);
+        /* color: hsl(var(--hue), 17%, 15%); */
+    }
+    
 
     .poll__option input[type="text"]:focus {
         /* border-color: #8c8dff; */
@@ -562,6 +579,14 @@
         /* color: hsl(var(--hue), 100%, 77%); */
         /* Manually changed for readability */
         color: hsl(var(--hue), 70%, 47%);
+    }
+
+    .privacy-dropdown.active .privacy-dropdown__value {
+    /*     background: #fff; */
+    /*     background: hsl(0, 0%, 100%); */
+    /*     background: hsl(var(--hue), 0%, 100%); */
+        /* Manually changed for readability */
+        background: hsl(var(--hue), 70%, 39%);
     }
 
     .privacy-dropdown.active .privacy-dropdown__value.active {
@@ -607,10 +632,12 @@
         background: hsl(var(--hue), 100%, 69%);
     }
 
+    .language-dropdown__dropdown__results__item.active,
     .language-dropdown__dropdown__results__item.active .language-dropdown__dropdown__results__item__common-name {
-        /* color: #d9e1e8; */
-        /* color: hsl(208, 25%, 88%); */
-        color: hsl(var(--hue), 25%, 88%);
+        /* color: #fff; */
+        /* color: hsl(0, 0%, 100%); */
+        /* Manually changed for readability */
+        color: hsl(var(--hue), 16%, 38%);
     }
 
     .language-dropdown__dropdown__results__item.active:hover {
@@ -623,13 +650,27 @@
         /* color: #282c37; */
         /* color: hsl(224, 16%, 19%); */
         /* Manually changed for readability */
-        color: hsl(300, 46%, 75.3%);
+        color: hsl(var(--hue), 46%, 75.3%);
     }
 
     .language-dropdown__dropdown__results__item__common-name {
         /* color: #9baec8; */
         /* color: hsl(215, 29%, 70%); */
         color: hsl(var(--hue), 29%, 70%);
+    }
+
+    .language-dropdown__dropdown__results__item:active,
+    .language-dropdown__dropdown__results__item:focus,
+    .language-dropdown__dropdown__results__item:hover {
+        /*     background: #d9e1e8; */
+        /*     background: hsl(208, 25%, 88%); */
+        /*     background: hsl(var(--hue), 25%, 88%); */
+        /* Manually changed for readability */
+        background: hsl(var(--hue), 25%, 37%);
+    }
+
+    .emoji-button img {
+        filter: grayscale(100%) sepia(50%) hue-rotate(calc(var(--hue) - 50deg));
     }
 
     .emoji-picker-dropdown__menu {
@@ -706,6 +747,18 @@
         color: hsl(var(--hue), 16%, 45%);
     }
 
+    .emoji-mart-anchor {
+    /*     color: #606984; */
+    /*     color: hsl(225, 16%, 45%); */
+        color: hsl(var(--hue), 16%, 45%);
+    }
+
+    .emoji-mart-anchor:hover {
+    /*     color: #a8b9cf; */
+    /*     color: hsl(214, 29%, 74%); */
+        color: hsl(var(--hue), 29%, 74%);
+    }
+
     .emoji-mart-bar {
         /* border-color: #c0cdd9; */
         /* border-color: hsl(209, 25%, 80%); */
@@ -714,8 +767,12 @@
 
     .emoji-mart-bar:first-child {
         /* background: #d9e1e8; */
+        /* border-color: #c0cdd9; */
         /* background: hsl(208, 25%, 88%); */
-        background: hsl(var(--hue), 25%, 88%);
+        /* border-color: hsl(209, 25%, 80%); */
+        /* Manually changed for readability */
+        background: hsl(var(--hue), 17%, 15%);
+        border-color: hsl(var(--hue), 16%, 27%);
     }
 
     .emoji-mart-anchor-bar {
@@ -733,15 +790,32 @@
         /* background: hsla(208, 25%, 88%, .3); */
         /* color: hsl(224, 16%, 19%); */
         /* border-color: hsl(208, 25%, 88%); */
-        background: hsla(var(--hue), 25%, 88%, .3);
-        color: hsl(var(--hue), 16%, 19%);
-        border-color: hsl(var(--hue), 25%, 88%);
+        /* Manually changed for readability */
+        background: hsla(var(--hue), 17%, 15%, .3);
+        /* Manually changed for readability */
+        color: hsl(var(--hue), 16%, 72%);
+        border-color: hsl(var(--hue), 16%, 27%);
+    }
+
+    .emoji-mart-search input::placeholder {
+        /* Manually changed for readability */
+        color: hsl(var(--hue), 25%, 88%);
+    }
+
+    .emoji-mart-search-icon svg {
+        /* fill: #606984; */
+        /* fill: hsl(225, 16%, 45%); */
+        /* fill: hsl(var(--hue), 16%, 45%); */
+        /* Manually changed for readability */
+        fill: hsl(var(--hue), 25%, 88%);
     }
 
     .emoji-mart-category .emoji-mart-emoji:hover::before {
         /* background-color: rgba(217,225,232,.7); */
         /* background-color: hsla(208, 25%, 88%, .7); */
-        background-color: hsla(var(--hue), 25%, 88%, .7);
+        /* background-color: hsla(var(--hue), 25%, 88%, .7); */
+        /* Manually changed for readability */
+        background-color: hsla(var(--hue), 25.4%, 27.8%, .7);
     }
 
     .dismissable-banner {
@@ -3043,6 +3117,18 @@
         /* background: #404657; */
         /* background: hsl(224, 15%, 30%); */
         background: hsl(var(--hue), 15%, 30%);
+    }
+
+    .follow-request-banner, .moved-account-banner {
+        /*background: #313543; */
+        /* background: hsl(227, 16%, 23%); */
+        background: hsl(var(--hue), 16%, 23%);
+    }
+
+    .follow-request-banner__message, .moved-account-banner__message {
+        color: #9baec8;
+        color: hsl(215, 29%, 70%);
+        color: hsl(var(--hue), 29%, 70%);
     }
 
 
